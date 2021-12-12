@@ -1,0 +1,23 @@
+@import "Component";
+@import "mixins";
+:root {
+    font-size: 62.5%;
+    --bg-body: #ffb178;
+    --dark-color: #243441;
+    --light-color: #ebebeb;
+    --btn-color: #df7626;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1.6rem;
+    @include flex(flex, column, center);
+    align-items: center;
+    background-color: var(--dark-color);
+    color: #ccc;
+}
