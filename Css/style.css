@@ -1,6 +1,9 @@
 .scoreboard .tempcalc, .scoreboard .resutl {
+  width: inherit;
+  padding-left: 10px;
   display: flex;
-  justify-content: flex-end;
+  flex-direction: row;
+  justify-content: flex-start;
   align-items: center;
 }
 
@@ -32,15 +35,12 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  align-content: flex-start;
 }
 .scoreboard .resutl {
-  width: inherit;
   height: 60%;
   font-size: 3.4rem;
 }
 .scoreboard .tempcalc {
-  width: inherit;
   height: 40%;
   font-size: 1.6rem;
 }
@@ -81,8 +81,11 @@
 }
 
 .scoreboard .resutl, .scoreboard .tempcalc {
+  width: inherit;
+  padding-left: 10px;
   display: flex;
-  justify-content: flex-end;
+  flex-direction: row;
+  justify-content: flex-start;
   align-items: center;
 }
 

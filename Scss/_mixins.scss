@@ -5,7 +5,8 @@
 }
 
 %displsy_style {
-    display: flex;
-    justify-content: flex-end;
+    width: inherit;
+    padding-left: 10px;
+    @include flex(flex, row, flex-start);
     align-items: center;
 }

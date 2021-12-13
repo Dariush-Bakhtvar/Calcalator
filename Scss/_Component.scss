@@ -24,15 +24,12 @@
     height: 35%;
     @include flex(flex, column, space-between);
     align-items: center;
-    align-content: flex-start;
     .resutl {
-        width: inherit;
         height: 60%;
         font-size: 3.4rem;
         @extend %displsy_style;
     }
     .tempcalc {
-        width: inherit;
         height: 40%;
         font-size: 1.6rem;
         @extend %displsy_style;
