@@ -31,7 +31,7 @@ backSpace.addEventListener('click', () => {
     else tempCalc.textContent = '0';
     if (lenRs > 1) result.textContent = result.textContent.slice(0, -1);
     else result.textContent = '0';
-    if (lenRs == '0') tempCalc.textContent = '0';
+    // if (lenRs == '0') tempCalc.textContent = '0';
 });
 
 numberBtn.forEach(item => {

@@ -1,0 +1,80 @@
+:root {
+  font-size: 62.5%;
+  --frist-color: #3a7bd5;
+  --second-color: #00d2ff;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+textarea {
+  resize: none;
+  outline: none;
+}
+
+body {
+  background: linear-gradient(to right, var(--frist-color), var(--second-color));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calcalator {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-template-columns: repeat(4, 100px);
+  grid-template-rows: minmax(120px, auto) repeat(5, 90px);
+  height: 100vh;
+}
+.calcalator button {
+  cursor: pointer;
+  font-size: 2.4rem;
+  border: 1px solid #ffffff;
+  background-color: rgba(255, 255, 255, 0.75);
+  outline: none;
+}
+.calcalator button:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.span-two {
+  grid-column: span 2;
+}
+
+.Output {
+  grid-column: 1/-1;
+  background: rgba(0, 0, 0, 0.75);
+  color: rgba(255, 255, 255, 0.75);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-end;
+  padding: 10px;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.previous-op {
+  font-size: 1.8rem;
+}
+
+.current-op {
+  font-size: 3.2rem;
+  color: #fff;
+}/*# sourceMappingURL=grid.css.map */
