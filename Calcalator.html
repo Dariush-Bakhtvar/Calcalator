@@ -13,33 +13,36 @@
 
 <body>
     <section class="container">
+        <!-- calcalator top title -->
         <div class="titles">
             <p>Calcalator</p>
         </div>
+        <!-- calcalator display input -->
         <div class="scoreboard">
-            <p class=resutl>0</p>
-            <p class="tempcalc">0</p>
+            <p class="previousOp">0</p>
+            <p class="currentOp">0</p>
         </div>
+        <!-- calcalator btn numer and operation key -->
         <div class="bnt-groups">
-            <button class="color" id="backSpace"><i class="far fa-backspace"></i></button>
-            <button class="color" id="AC">AC</button>
-            <button class="color" id="percent"><i class="far fa-percent"></i></button>
-            <button class="color" id="division"><i class="far fa-divide"></i></button>
-            <button class=" numberic">7</button>
-            <button class=" numberic">8</button>
-            <button class=" numberic">9</button>
-            <button class="color" id="multiple"><i class="far fa-times"></i></button>
-            <button class=" numberic">4</button>
-            <button class=" numberic">5</button>
-            <button class=" numberic">6</button>
-            <button class="color" id="sub"><i class="far fa-minus"></i></button>
-            <button class=" numberic">1</button>
-            <button class=" numberic">2</button>
-            <button class=" numberic">3</button>
-            <button class="color " id="sum"><i class="far fa-plus"></i></button>
-            <button class="space numberic">0</button>
-            <button class=" space numberic" id="point">.</button>
-            <button class="color equal" id="Equal"><i class="far fa-equals"></i></button>
+            <button data-clear class="color"><i class="far fa-backspace"></i></button>
+            <button data-allClear class="color">AC</button>
+            <button data-operation class="color">%</i></button>
+            <button data-operation class="color">÷</i></button>
+            <button data-number>7</button>
+            <button data-number>8</button>
+            <button data-number>9</button>
+            <button data-operation class="color">*</button>
+            <button data-number>4</button>
+            <button data-number>5</button>
+            <button data-number>6</button>
+            <button data-operation class="color">-</button>
+            <button data-number>1</button>
+            <button data-number>2</button>
+            <button data-number>3</button>
+            <button data-operation class="color">+</i></button>
+            <button data-number>0</button>
+            <button data-number>.</button>
+            <button data-equal class="color equal">=</button>
         </div>
     </section>
     <script src="js/script.js"></script>

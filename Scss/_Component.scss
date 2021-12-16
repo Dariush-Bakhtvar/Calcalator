@@ -1,4 +1,7 @@
 @import "mixins";
+
+/** calcalator main container */
+
 .container {
     width: 260px;
     height: 500px;
@@ -13,28 +16,37 @@
     box-shadow: 8px 8px 15px #202e3a, -8px -8px 15px #283a48;
 }
 
+
+/** calcalator top titile */
+
 .titles {
     padding: 5px;
     border-bottom: 2px solid #df7626;
     font-size: 2rem;
 }
 
+
+/** calcalator input Display */
+
 .scoreboard {
     width: 100%;
     height: 35%;
     @include flex(flex, column, space-between);
     align-items: center;
-    .resutl {
+    .currentOp {
         height: 60%;
-        font-size: 3.4rem;
+        font-size: 3.2rem;
         @extend %displsy_style;
     }
-    .tempcalc {
+    .previousOp {
         height: 40%;
-        font-size: 1.6rem;
+        font-size: 2.6rem;
         @extend %displsy_style;
     }
 }
+
+
+/** calcalator bntNumber */
 
 .bnt-groups {
     width: 100%;

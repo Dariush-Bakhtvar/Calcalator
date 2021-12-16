@@ -1,12 +1,16 @@
-.scoreboard .tempcalc, .scoreboard .resutl {
+.scoreboard .previousOp, .scoreboard .currentOp {
   width: inherit;
   padding-left: 10px;
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: flex-end;
   align-items: center;
+  padding: 10px;
+  word-wrap: break-word;
+  word-break: break-all;
 }
 
+/** calcalator main container */
 .container {
   width: 260px;
   height: 500px;
@@ -22,12 +26,14 @@
   box-shadow: 8px 8px 15px #202e3a, -8px -8px 15px #283a48;
 }
 
+/** calcalator top titile */
 .titles {
   padding: 5px;
   border-bottom: 2px solid #df7626;
   font-size: 2rem;
 }
 
+/** calcalator input Display */
 .scoreboard {
   width: 100%;
   height: 35%;
@@ -36,15 +42,16 @@
   justify-content: space-between;
   align-items: center;
 }
-.scoreboard .resutl {
+.scoreboard .currentOp {
   height: 60%;
-  font-size: 3.4rem;
+  font-size: 3.2rem;
 }
-.scoreboard .tempcalc {
+.scoreboard .previousOp {
   height: 40%;
-  font-size: 1.6rem;
+  font-size: 2.6rem;
 }
 
+/** calcalator bntNumber */
 .bnt-groups {
   width: 100%;
   height: 60%;
@@ -80,13 +87,16 @@
   margin-right: 15px;
 }
 
-.scoreboard .resutl, .scoreboard .tempcalc {
+.scoreboard .currentOp, .scoreboard .previousOp {
   width: inherit;
   padding-left: 10px;
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: flex-end;
   align-items: center;
+  padding: 10px;
+  word-wrap: break-word;
+  word-break: break-all;
 }
 
 :root {
