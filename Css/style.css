@@ -23,7 +23,7 @@
   border-radius: 25px;
   color: #ccc;
   background: linear-gradient(145deg, #202f3b, #273846);
-  box-shadow: 8px 8px 15px #202e3a, -8px -8px 15px #283a48;
+  box-shadow: 3px 3px 3px #202e3a, -3px -3px 3px #283a48;
 }
 
 /** calcalator top titile */
@@ -60,15 +60,17 @@
   justify-content: space-around;
   flex-wrap: wrap;
   background-color: #243441;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 25px;
 }
 .bnt-groups button {
   width: 50px;
   height: 40px;
   color: var(--light-color);
-  border: 1px solid #2c363d87;
+  border: 1px solid rgba(44, 54, 61, 0.5294117647);
   border-radius: 8px;
   background: #243441;
-  box-shadow: 5px 5px 10px #202e3a, -5px -5px 10px #283a48;
+  box-shadow: 3px 3px 3px #202e3a, -3px -3px 3px #283a48;
   font-size: 1.4rem;
   cursor: pointer;
 }
